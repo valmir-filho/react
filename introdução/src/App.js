@@ -10,6 +10,7 @@ function App() {
       <h4>Testando Tags HTML: H4</h4>
       <h5>Testando Tags HTML: H5</h5>
       <h6>Testando Tags HTML: H6</h6>
+      <p>Criando um parágrafo!</p>
     </div>
   );
 }
