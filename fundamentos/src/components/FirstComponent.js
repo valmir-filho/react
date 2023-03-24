@@ -1,4 +1,4 @@
-/* Criação de um componente.*/
+// Criação de um componente.
 
 const FirstComponent = () => {
 
