@@ -1,11 +1,13 @@
 // Importação do componente criado.
 
 // components
-import FirstComponent from './components/FisrtComponent';
+import FirstComponent from './components/FirstComponent';
 import TemplateExpressions from './components/TemplateExpressions';
+import MyComponent from './components/MyComponent';
 
 // styles - CSS
 import './App.css';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <h1>Fundamentos React</h1>
       <FirstComponent />
       <TemplateExpressions />
+      <MyComponent />
     </div>
   );
 }
