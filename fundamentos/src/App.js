@@ -6,10 +6,10 @@ import TemplateExpressions from './components/TemplateExpressions';
 import MyComponent from './components/MyComponent';
 import Events from './components/Events';
 import FunctionInEvents from './components/FunctionInEvents';
+import RenderFunction from './components/RenderFunction';
 
 // styles - CSS
 import './App.css';
-
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
       <MyComponent />
       <Events />
       <FunctionInEvents />
+      <RenderFunction />
     </div>
   );
 }
