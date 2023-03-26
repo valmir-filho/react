@@ -7,9 +7,11 @@ import MyComponent from './components/MyComponent';
 import Events from './components/Events';
 import FunctionInEvents from './components/FunctionInEvents';
 import RenderFunction from './components/RenderFunction';
+import Challenge from './components/Challenge';
 
 // styles - CSS
 import './App.css';
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       <Events />
       <FunctionInEvents />
       <RenderFunction />
+      <Challenge />
     </div>
   );
 }
