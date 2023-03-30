@@ -1,9 +1,7 @@
 const TemplateExpressions = () => {
+
     const name = "Valmir";
-    const data = {
-        age: 43,
-        job: "Estudent",
-    };
+    const data = { age: 43, job: "Estudent" };
 
     return (
         <div>
