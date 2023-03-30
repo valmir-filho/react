@@ -7,7 +7,7 @@ const RenderFunction = () => {
         } else {
             return <h1>Senão isso!</h1>
         }
-    }
+    };
 
     return (
         <div>
@@ -17,4 +17,4 @@ const RenderFunction = () => {
     );
 };
 
-export default RenderFunction;
+export default RenderFunction; 
