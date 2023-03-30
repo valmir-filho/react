@@ -2,9 +2,7 @@
 
 const Events = () => {
 
-    const handleEvent = (e) => {
-        console.log(e);
-    };
+    const handleEvent = (e) => {console.log(e)};
 
     return (
         <div>
