@@ -5,6 +5,8 @@ import ManageData from './components/ManageData';
 import ListRender from './components/ListRender';
 import ConditionalRender from './components/ConditionalRender';
 import ShowUserName from './components/ShowUserName';
+import CarDetailsWithoutDestructuring from './components/CarDetailsWithoutDestructuring';
+import CarDetailsWithDestructuring from './components/CarDetailsWithoutDestructuring';
 
 function App() {
 
@@ -28,6 +30,8 @@ function App() {
       <ShowUserName name="Valmir" />  {/* Uma forma de adicionar propriedade. */}
       <ShowUserName name={name} />  {/* Outra forma de adicionar propriedade. */}
       <ShowUserName name={userName} />  {/* Outra forma de adicionar propriedade. */}
+      <CarDetailsWithoutDestructuring brand="VW" km={100_000} color="Azul" />  {/* Adição de mais de uma prop. sem o "destructuring" */}
+      <CarDetailsWithDestructuring brand="VW" km={100_000} color="Azul" />  {/* Adição de mais de uma prop. com o "destructuring" */}
     </div>
   );
 };
