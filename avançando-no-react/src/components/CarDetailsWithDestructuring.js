@@ -1,4 +1,4 @@
-const CarDetailsWithDestructuring = ({ brand, km, color }) => {
+const CarDetailsWithDestructuring = ({ brand, km, color, newCar }) => {
 
     return (
         <div>
@@ -8,6 +8,7 @@ const CarDetailsWithDestructuring = ({ brand, km, color }) => {
                 <li>KM: {km}</li>
                 <li>Cor: {color}</li>
             </ul>
+            {newCar && <p>Este carro é novo!</p>}
         </div>
     );
 };
