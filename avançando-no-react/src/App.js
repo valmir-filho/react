@@ -8,6 +8,7 @@ import ShowUserName from './components/ShowUserName';
 import CarDetailsWithoutDestructuring from './components/CarDetailsWithoutDestructuring';
 import CarDetailsWithDestructuring from './components/CarDetailsWithoutDestructuring';
 import Fragment from './components/Fragment';
+import Container from './components/Container';
 
 function App() {
 
@@ -34,6 +35,9 @@ function App() {
       <CarDetailsWithoutDestructuring brand="VW" km={100_000} color="Azul" />  {/* Adição de mais de uma prop. sem o "destructuring" */}
       <CarDetailsWithDestructuring brand="VW" km={100_000} color="Azul" />  {/* Adição de mais de uma prop. com o "destructuring" */}
       <Fragment propFragment="teste" />
+      <Container>
+        <p>E este é o conteúdo</p>
+      </Container>
     </div>
   );
 };
