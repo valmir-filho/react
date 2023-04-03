@@ -10,6 +10,8 @@ import CarDetailsWithDestructuring from './components/CarDetailsWithDestructurin
 import Fragment from './components/Fragment';
 import Container from './components/Container';
 import ExecuteFunction from './components/ExecuteFunction';
+import Message from './components/Message';
+import ChangeMessageState from './components/ChangeMessageState';
 
 function App() {
 
@@ -20,6 +22,10 @@ function App() {
     { id: 2, brand: "Renault", color: "Branco", newCar: false, km: 45_450 },
     { id: 3, brand: "GM", color: "Preto", newCar: false, km: 33_345 },
   ];
+  const [message, setMessage] = useState("");
+  const handleMessage = (msg) => {
+    setMessage(msg);
+  };
 
   function showMessage() {
     console.log("Evento do componente pai!")
@@ -56,6 +62,9 @@ function App() {
       </Container>
       {/* Execução de função. */}
       <ExecuteFunction myFunction={showMessage} />
+      {/* Elevação de state (state lift). */}
+      <Message msg={message} />
+      <ChangeMessageState handleMessage={handleMessage} />
     </div>
   );
 };
