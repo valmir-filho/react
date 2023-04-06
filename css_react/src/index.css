@@ -1,0 +1,13 @@
+/* CSS Global. */
+
+/* Resetando o body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  padding-bottom: 500px;
+}
+
+h1 {
+  color: darkgoldenrod;
+}
