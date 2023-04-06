@@ -1,0 +1,11 @@
+/* Estilização do parágrafo: Este é o paráfrafo do componente */
+
+p {
+    color: green;
+    background-color: black;
+}
+
+.my-comp-paragraph {
+    color: black;
+    background-color: gold;
+}
