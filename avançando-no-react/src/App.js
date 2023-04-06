@@ -12,6 +12,7 @@ import Container from './components/Container';
 import ExecuteFunction from './components/ExecuteFunction';
 import Message from './components/Message';
 import ChangeMessageState from './components/ChangeMessageState';
+import UserDetails from './components/UserDetails';
 
 function App() {
 
@@ -26,6 +27,12 @@ function App() {
   const handleMessage = (msg) => {
     setMessage(msg);
   };
+
+  const people = [
+    { id: 1, name: "Valmir", age: 30, profession: "Developer" },
+    { id: 2, name: "Audi", age: 27, profession: "Dentist" },
+    { id: 3, name: "Eduardo", age: 22, profession: "Student" },
+  ];
 
   function showMessage() {
     console.log("Evento do componente pai!")
@@ -65,6 +72,7 @@ function App() {
       {/* Elevação de state (state lift). */}
       <Message msg={message} />
       <ChangeMessageState handleMessage={handleMessage} />
+      {people.map((person) => (<UserDetails key={person.id} name={person.name} age={person.age} profession={person.profession} />))}
     </div>
   );
 };
