@@ -11,3 +11,15 @@ body {
 h1 {
   color: darkgoldenrod;
 }
+
+.redTitle {
+  background-color: black;
+  color: red;
+  padding: 15px;
+  border: 5px solid red;
+}
+
+.title {
+  background-color: black;
+  color: white;
+}
