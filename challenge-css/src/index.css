@@ -1,7 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
   font-family: sans-serif;
-  color: darkred;
+  text-align: center;
+}
+
+.car-container {
+  display: flex;
+  justify-content: center;
+}
+
+.car-container div {
+  margin-top: 50px;
 }
