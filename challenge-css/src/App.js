@@ -11,12 +11,13 @@ function App() {
   ];
 
   return (
-    <div>
-      <h1>Challenge CSS</h1>
-      {cars.map((car) => (<CarDetails key={car.id} brand={car.brand} model={car.model} color={car.color} year={car.year} km={car.km} />))}
+    <div className="App">
+      <h1>Showroom de Carros</h1>
+      <div className="car-container">
+        {cars.map((car) => (<CarDetails car={car} />))}
+      </div>
     </div>
-
   );
-}
+};
 
 export default App;
