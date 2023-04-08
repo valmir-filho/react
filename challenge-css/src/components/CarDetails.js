@@ -1,17 +1,14 @@
-import './CarDetails.css';
+import styles from './CarDetails.module.css';
 
-const CarDetails = ({ brand, model, color, year, km }) => {
+const CarDetails = ({ car }) => {
 
     return (
-        <div>
-            <p>CarDetails</p>
-            <ul>
-                <li>Marca: {brand}</li>
-                <li>Modelo: {model}</li>
-                <li>Cor: {color}</li>
-                <li>Ano: {year}</li>
-                <li>Km: {km}</li>
-            </ul>
+        <div className={styles.card}>
+            <h1>{car.brand}</h1>
+            <p>Modelo: {car.model}</p>
+            <p>Cor: {car.color}</p>
+            <p>Ano: {car.year}</p>
+            <p>KM: {car.km}</p>
         </div>
     );
 };
