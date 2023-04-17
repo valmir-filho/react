@@ -1,21 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Camisa",
-      "price": 59.9
-    },
-    {
-      "id": 2,
-      "name": "Calça vermelha",
-      "price": 90.1
-    },
-    {
-      "id": 3,
-      "name": "Boné aba reta",
-      "price": 29.9
-    },
-    {
       "name": "Casaco",
       "price": "35.4",
       "id": 4
@@ -36,11 +21,6 @@
       "id": 7
     },
     {
-      "name": "Meia",
-      "price": "23.12",
-      "id": 8
-    },
-    {
       "name": "Calcinha",
       "price": "65.34",
       "id": 9
@@ -54,11 +34,6 @@
       "name": "Sapato",
       "price": "560.34",
       "id": 11
-    },
-    {
-      "name": "Sapato",
-      "price": "560.34",
-      "id": 12
     }
   ]
 }
