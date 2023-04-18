@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from react';
 
 // Hook customizado.
 export const useFetch = (url) => {
