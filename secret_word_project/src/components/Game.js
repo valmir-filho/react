@@ -1,7 +1,7 @@
-import { useState, useRef } from "react";
+import { useState, useRef } from 'react';
 
 // Importacão CSS.
-import "./Game.css";
+import './Game.css';
 
 const Game = ({
     verifyLetter,
