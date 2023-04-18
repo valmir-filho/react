@@ -1,15 +1,15 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from 'react';
 
 // Importação dos componentes.
-import StartScreen from "./components/StartScreen";
-import Game from "./components/Game";
-import GameOver from "./components/GameOver";
+import StartScreen from './components/StartScreen';
+import Game from './components/Game';
+import GameOver from './components/GameOver';
 
 // Importação do CSS.
-import "./App.css";
+import './App.css';
 
 // Importação dos dados.
-import { wordsList } from "./data/words";
+import { wordsList } from './data/words;
 
 const stages = [
   { id: 1, name: "start" },
