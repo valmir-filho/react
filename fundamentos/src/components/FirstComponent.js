@@ -1,6 +1,6 @@
 /* Criação de um componente.*/
 
-import MyComponent from "./MyComponent";
+import MyComponent from ./MyComponent';
 
 const FirstComponent = () => {
 
