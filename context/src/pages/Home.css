@@ -1,0 +1,20 @@
+.Color button {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#redbutton {
+    background-color: red;
+}
+
+#bluebutton {
+    background-color: blue;
+}
+
+#yellowbutton {
+    background-color: yellow;
+}
+
+#graybutton {
+    background-color: gray;
+}
