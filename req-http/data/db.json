@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "name": "Casaco",
+      "price": "35.4",
+      "id": 4
+    },
+    {
+      "name": "Bermuda",
+      "price": "44.2",
+      "id": 5
+    },
+    {
+      "name": "Tênis",
+      "price": "300.40",
+      "id": 6
+    },
+    {
+      "name": "Cueca",
+      "price": "23.21",
+      "id": 7
+    },
+    {
+      "name": "Calcinha",
+      "price": "65.34",
+      "id": 9
+    },
+    {
+      "name": "Calcinha",
+      "price": "65.34",
+      "id": 10
+    },
+    {
+      "name": "Sapato",
+      "price": "560.34",
+      "id": 11
+    }
+  ]
+}
