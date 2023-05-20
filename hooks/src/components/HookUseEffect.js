@@ -8,6 +8,10 @@ const HookUseEffect = () => {
     });
     const [number, setNumber] = useState(1);
     const changeSomething = () => { setNumber(number + 1) };
+    // UseEffect with empty dependencies array.
+    useEffect(() => {
+        console.log('Serei executado apenas uma vez!')
+    }, []);
 
     return (
         <div>
