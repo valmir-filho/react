@@ -1,4 +1,4 @@
-// context.
+// Context.
 import { useContext } from 'react';
 import { SomeContext } from '../../components/HookUseContext';
 
@@ -13,4 +13,4 @@ const About = () => {
     );
 };
 
-export default About
+export default About;
