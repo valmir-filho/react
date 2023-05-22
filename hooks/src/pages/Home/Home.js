@@ -4,7 +4,7 @@ import React from 'react';
 import HookUseReducer from '../../components/HookUseReducer';
 import HookUseState from '../../components/HookUseState';
 import HookUseEffect from '../../components/HookUseEffect';
-// context.
+// Context.
 import { useContext } from 'react';
 import { SomeContext } from '../../components/HookUseContext';
 
@@ -23,4 +23,4 @@ const Home = () => {
     );
 };
 
-export default Home
+export default Home;
