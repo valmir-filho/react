@@ -3,6 +3,7 @@ import { useCallback, useState } from 'react';
 // Component.
 import List from './List';
 
+// Used for functions.
 const HookUseCallback = () => {
     const [counter, setCounter] = useState(0);
     const getItemsFromDataBase = useCallback(() => { return ['a', 'b', 'c', 'd', 'e'] }, []);
