@@ -1,7 +1,7 @@
-Repositório de exercícios React.
+# Repositório de exercícios React.
 
-Conteúdo:
+## Conteúdo:
 
-Exercícios do curso React do Zero a Maestria da Udemy.
+- Exercícios do curso React do Zero a Maestria da Udemy.
 
-IDE utilizada: Visual Studio Code.
+### IDE utilizada: Visual Studio Code.
